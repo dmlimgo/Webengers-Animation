@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "https://d14jq4fldgbyc.cloudfront.net/static/css/main.c17dd032.chunk.css",
+    "main.js": "https://d14jq4fldgbyc.cloudfront.net/static/js/main.ee9cdd85.chunk.js",
+    "main.js.map": "https://d14jq4fldgbyc.cloudfront.net/static/js/main.ee9cdd85.chunk.js.map",
+    "runtime~main.js": "https://d14jq4fldgbyc.cloudfront.net/static/js/runtime~main.0e665edc.js",
+    "runtime~main.js.map": "https://d14jq4fldgbyc.cloudfront.net/static/js/runtime~main.0e665edc.js.map",
+    "static/js/2.fe865714.chunk.js": "https://d14jq4fldgbyc.cloudfront.net/static/js/2.fe865714.chunk.js",
+    "static/js/2.fe865714.chunk.js.map": "https://d14jq4fldgbyc.cloudfront.net/static/js/2.fe865714.chunk.js.map",
+    "index.html": "https://d14jq4fldgbyc.cloudfront.net/index.html",
+    "precache-manifest.6558c3be069505fb9fa21947339799e3.js": "https://d14jq4fldgbyc.cloudfront.net/precache-manifest.6558c3be069505fb9fa21947339799e3.js",
+    "service-worker.js": "https://d14jq4fldgbyc.cloudfront.net/service-worker.js",
+    "static/css/main.c17dd032.chunk.css.map": "https://d14jq4fldgbyc.cloudfront.net/static/css/main.c17dd032.chunk.css.map"
+  }
+}

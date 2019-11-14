@@ -1,0 +1,13 @@
+f = open("C:/Users/multicampus/Desktop/Projects/webengers/WebSideProject/frontend/src/components/home/BgSvg2.js", 'r')
+g = open('C:/Users/multicampus/Desktop/Projects/webengers/WebSideProject/frontend/src/components/home/BgSvg2New.js', 'w')
+# f = open("C:/Users/dongm/Desktop/Projects/WebSideProject/frontend/src/components/home/BgSvg2.scss", 'r')
+# g = open("C:/Users/dongm/Desktop/Projects/WebSideProject/frontend/src/components/home/BgSvg2New.scss", 'w')
+lines = f.readlines()
+for line in lines:
+    line = line.replace('_1_', '')
+    line = line.replace('_2_', '')
+    line = line.replace('_3_', '')
+    line = line.replace('_4_', '')
+    g.write(line)
+f.close()
+g.close()

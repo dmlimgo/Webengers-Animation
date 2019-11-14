@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Blinker|Exo|Fugaz+One&display=swap');
+
+.topnav-wrapper {
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    padding: 10px 40px; 
+    box-sizing: border-box;
+    // box-shadow: 0px 0px 4px gray;
+    font-weight: 700;
+    font-size: 24px;
+    // font-family: 'Blinker', sans-serif;
+    // font-family: 'Exo', sans-serif;
+    font-family: 'Fugaz One', cursive;
+}
+.topnav-flex {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    color: white !important;
+}
+.left, .right {
+    display: flex;
+}
+.item {
+    margin: 0 20px;
+}

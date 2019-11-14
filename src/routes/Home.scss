@@ -1,0 +1,315 @@
+$member-names:  lmk, yco, kbs, ldm;
+$member-colors: #004b8d, #2f4f4f, #ec407a, #f2b705;
+$member-colors-hover: #004b8d, #2f4f4f, #ec407a, #f2b705;
+
+.html__scroll--disable {
+    overflow: hidden;
+}
+#home {
+    transform: translateY(0);
+    transition: transform 1s ease;
+}
+.home__aboutteam {
+    height: 100vh;
+    width: 100%;
+    
+}
+.home__aboutteam__bg {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    // background: linear-gradient(#292633, #343b73,#343b73, #3eafdb, #3eafdb, #e8cc50);
+    background: linear-gradient(#292633, #343b73, #3eafdb, #e8cc50, #e8cc50);
+    background-size: 150% 150%;
+    animation: bggradient 10s ease-out forwards;
+}
+@keyframes bggradient {
+    0% {
+        background-position: 50% 0%;
+    }
+    100% {
+        background-position: 50% 100%;
+    }
+}
+.home__aboutteam__bgimage {
+    display: flex;
+    align-self: flex-end;
+    width: 100%;
+}
+.home__aboutteam__content {
+    display: flex;
+    height: calc(100vh - 80px);
+    width: 100%;
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    line-height: 50px;
+}
+.home__eachmember {
+    position: relative;
+    height: 25vh;
+    width: 300px;
+    // padding: 25px;
+    // text-align: right;
+    font-size: 20px;
+    font-weight: 700;
+    span {
+        font-size: 24px;
+    }
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        transition: all 0.7s ease;
+    }
+    &:hover{
+        cursor: pointer;
+        &::before {
+            background: rgba(0,0,0,0.5);
+        }
+    }
+}
+.home__abouteach {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    background: linear-gradient(#2E273B, rgb(28, 24, 37), rgb(19, 16, 26), rgb(19, 16, 26));
+    display: flex;
+}
+@function multiple-box-shadow($n) {
+    $value: '#{random(3000)}px #{random(3000)}px #FFF';
+    @for $i from 2 through $n {
+        $value: '#{$value}, #{random(3000)}px #{random(3000)}px #FFF'
+    }
+    @return unquote($value);
+}
+@keyframes StarAni {
+    from {
+        transform: translateX(0px);
+    }
+    to {
+        transform: translateX(-3000px);
+    }
+}
+$shadows-small: multiple-box-shadow(1000);
+$shadows-middle: multiple-box-shadow(500);
+$shadows-large: multiple-box-shadow(100);
+.star--animate {
+    #stars1 {
+        position: relative;
+        width: 2px;
+        height: 2px;
+        border-radius: 50%;
+        background: transparent;
+        box-shadow: $shadows-small;
+        animation: StarAni 100s 15s linear infinite;
+        z-index: 1;
+        &::after {
+            content: "";
+            position: absolute;
+            left: 3000px;
+            width: 2px;
+            height: 2px;
+            border-radius: 50%;
+            background: transparent;
+            box-shadow: $shadows-small;
+        }
+    }
+    #stars2 {
+        position: relative;
+        width: 4px;
+        height: 4px;
+        border-radius: 50%;
+        background: transparent;
+        box-shadow: $shadows-middle;
+        animation: StarAni 50s 15s linear infinite;
+        z-index: 1;
+        &::after {
+            content: "";
+            position: absolute;
+            left: 3000px;
+            width: 4px;
+            height: 4px;
+            border-radius: 50%;
+            background: transparent;
+            box-shadow: $shadows-middle;
+        }
+    }
+    #stars3 {
+        position: relative;
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background: transparent;
+        box-shadow: $shadows-large;
+        animation: StarAni 20s 15s linear infinite;
+        z-index: 1;
+        &::after {
+            content: "";
+            position: absolute;
+            left: 3000px;
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: transparent;
+            box-shadow: $shadows-large;
+        }
+    }
+}
+.home__abouteach__member__wrap {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-wrap: wrap;
+    .bg--ontop {
+        z-index: 5;
+    }
+    @for $i from 1 through 4 {
+        > .#{nth($member-names, $i)} {
+            animation: reveal 1.3s ease forwards;
+            animation-delay: $i * 0.4s;
+            .home__abouteach__member__bg {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                height: 0;
+                width: 0;
+                transform: translate(-50%, -50%);
+                border-radius: 50%;
+                z-index: 2;
+                background: nth($member-colors, $i);
+                transition: 1s ease;
+                overflow: hidden;
+            }
+            .bg--expand {
+                // animation: bgexpand 2s ease forwards;
+                height: 2500px;
+                width: 2500px;
+            }
+            .home__abouteach__member__img {
+                position: relative;
+                height: 100%;
+                width: 100%;
+                border-radius: 50%;
+                background: nth($member-colors, $i);
+                overflow: hidden;
+                transition: 0.5s linear;
+                &:hover {
+                    background: darken(nth($member-colors, $i), 10%);
+                    cursor: pointer;
+                }
+                img {
+                    position: relative;
+                    height: 100%;
+                    width: 100%;
+                    // transform: translateY(20px);
+                }
+            }
+        }
+    }
+}
+@keyframes reveal {
+    0% {
+        transform: translateY(80px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+@keyframes bgexpand {
+    100% {
+        height: 2500px;
+        width: 2500px;
+    }
+}
+.home__abouteach__member {
+    position: relative;
+    display: flex;
+    height: 250px;
+    width: 250px;
+    margin: auto 20px;
+    opacity: 0;
+    z-index: 1;
+}
+.home__abouteach__detail__wrap {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 80px 160px;
+    z-index: 6;
+}
+.detail--show {
+    display: flex;
+    flex-direction: column;
+    color: #f7f7f7;
+}
+.home__abouteach__detail__header {
+    display: flex;
+    height: 70px;
+    width: 100%;
+    justify-content: space-between;
+    background: rga(0,0,0,0.3);
+    color: #f7f7f7;
+    margin-bottom: 20px;
+    span:first-of-type {
+        font-size: 50px;
+        font-weight: 900;
+    }
+    span:last-of-type {
+        font-size: 40px;
+    }
+}
+.home__abouteach__detail__quote {
+    span {
+        font-size: 26px;
+        line-height: 26px;
+        padding: 15px 0;
+        &::before {
+            content: open-quote;
+            font-size: 60px;
+            line-height: 52px;
+            color: #a8a8a8;
+        }
+    }
+}
+.home__abouteach__detail {
+    position: relative;
+    display: none;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: auto 20px;
+}
+.home__abouteach__detail__content {
+    
+}
+// .home__abouteach__detail--click {
+//     position: absolute;
+//     display: none;
+//     top: 0;
+//     left: 0;
+//     width: calc(100vw - 300px);
+//     height: 100vh;
+//     padding: 20px;
+//     z-index: -1;
+// }
+.home__course__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: calc(100vh - 70px);
+}

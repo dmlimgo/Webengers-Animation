@@ -1,0 +1,715 @@
+@import url('https://fonts.googleapis.com/css?family=Fugaz+One&display=swap');
+.test1 {
+	display: flex;
+	width: 100%;
+}
+#bgsvg2 {
+	position: relative;
+	z-index: 2;
+	// transform-origin: center;
+	// transform: scale(1);
+	width: 100%;
+	// *:not(g) {
+	// 	opacity: 0;
+	// }
+	> g > *{
+		opacity: 0;
+	}
+	*{
+		box-shadow: 0 0 10px 10px black;
+		font-family: 'Fugaz One', cursive !important;
+	}
+    .st0{fill:none;stroke:#FFFFFF;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#FFFFFF;stroke-width:0;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#FFFFFF;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;}
+	.st3{fill:#F6B360;}
+	.st4{fill:#FCCC78;}
+	.st5{fill:#F5EFEA;}
+	.st6{fill:#D8A159;}
+	.st7{fill:#F7F7F7;}
+	.st8{fill:#E23C03;}
+	.st9{fill:#93C12D;stroke:#F2F2F2;stroke-width:15;stroke-miterlimit:10;}
+	.st10{fill:#BEC5D6;}
+	.st11{fill:#9EA9B8;}
+	.st12{fill:#F7F0FE;}
+	.st13{fill:none;stroke:#D1BB5E;stroke-width:25;stroke-miterlimit:10;}
+	.st14{fill:#CFD3D7;}
+	.st15{fill:#C0C6CB;}
+	.st16{fill:#DCE1EC;}
+	.st17{fill:#FCFCFC;}
+	.st18{fill:none;stroke:#B81221;stroke-width:20;stroke-miterlimit:10;}
+	.st19{fill:#B81221;}
+	.st20{fill:none;stroke:#B81221;stroke-width:15;stroke-miterlimit:10;}
+	.st21{fill:#E2E2E2;}
+	.st22{fill:#C1C1C1;}
+	.st23{fill:#BDBDBD;stroke:#BDBDBD;stroke-miterlimit:10;}
+	.st24{fill:#DEDEDE;stroke:#DEDEDE;stroke-miterlimit:10;}
+	.st25{fill:none;stroke:#ADADAD;stroke-width:18;stroke-linecap:round;stroke-miterlimit:10;}
+	.st26{fill:none;stroke:#ADADAD;stroke-width:18;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:0,91.4457;}
+	.st27{fill:none;stroke:#ADADAD;stroke-width:18;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:0,119.2622;}
+	.st28{fill:#E13C00;stroke:#E13C00;stroke-miterlimit:10;}
+	.st29{fill:#FF4400;stroke:#FF4400;stroke-miterlimit:10;}
+	.st30{fill:#C1C1C1;stroke:#C1C1C1;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st31{fill:#E03A00;stroke:#E03A00;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st32{fill:none;stroke:#B7B7B7;stroke-width:10;stroke-linecap:round;stroke-miterlimit:10;}
+	.st33{fill:none;stroke:#F3EEED;stroke-width:30;stroke-miterlimit:10;}
+	.st34{fill:none;stroke:#F6EEED;stroke-width:30;stroke-miterlimit:10;}
+	.st35{fill:#EC407A;}
+	.st36{clip-path:url(#win1-clip_2_);}
+	.st37{fill:#F9BC92;}
+	.st38{fill:#9EBEFE;}
+	.st39{fill:#4E6199;}
+	.st40{fill:#E1F8F7;}
+	.st41{fill:#D69569;}
+	.st42{fill:#996A52;}
+	.st43{fill:#7C423A;}
+	.st44{fill:#9E6442;}
+	.st45{fill:#754833;}
+	.st46{fill:#D6805F;}
+	.st47{fill:#1C1D20;}
+	.st48{fill:#05090F;}
+	.st49{fill:#121824;}
+	.st50{fill:#0D1118;}
+	.st51{fill:#1A1E29;}
+	.st52{fill:#6C292F;}
+	.st53{fill:#8A1B26;}
+	.st54{fill:#878BA8;}
+	.st55{fill:#14171E;}
+	.st56{fill:#303133;}
+	.st57{fill:#181B21;}
+	.st58{fill:#202B38;}
+	.st59{fill:#004B8D;}
+	.st60{clip-path:url(#win2-clip_2_);}
+	.st61{fill:#040709;}
+	.st62{fill:#E3AE83;}
+	.st63{fill:#4E382B;}
+	.st64{fill:#3D201F;}
+	.st65{fill:#684335;}
+	.st66{fill:#4C271B;}
+	.st67{fill:#681C26;}
+	.st68{fill:#E44F5E;}
+	.st69{fill:#49151E;}
+	.st70{fill:#292722;}
+	.st71{fill:#12151A;}
+	.st72{fill:#05070A;}
+	.st73{fill:#171925;}
+	.st74{fill:#0D0F1B;}
+	.st75{fill:#1B1D24;}
+	.st76{fill:#9DB6C1;}
+	.st77{fill:#2A2B33;}
+	.st78{fill:#2F4F4F;}
+	.st79{clip-path:url(#win3-clip_2_);}
+	.st80{fill:#0B1113;}
+	.st81{fill:#111A1C;}
+	.st82{fill:#E1A580;}
+	.st83{fill:#D19879;}
+	.st84{fill:#9B7059;}
+	.st85{fill:#C69177;}
+	.st86{fill:#99715C;}
+	.st87{fill:#AF836D;}
+	.st88{fill:#B5866D;}
+	.st89{fill:#07080B;}
+	.st90{fill:#000016;stroke:#000000;stroke-miterlimit:10;}
+	.st91{fill:#00000C;}
+	.st92{fill:#212121;}
+	.st93{fill:#F2B705;}
+	.st94{clip-path:url(#win4-clip_2_);}
+	.st95{fill:#D48E6B;}
+	.st96{fill:#8E6044;}
+	.st97{fill:#090703;}
+	.st98{fill:#C8B198;}
+	.st99{fill:#9E8066;}
+	.st100{fill:#839962;}
+	.st101{fill:#53683A;}
+	.st102{fill:#302E28;}
+	.st103{fill:#141410;}
+	.st104{fill:#2C2823;}
+	.st105{fill:none;stroke:#D6C6B6;stroke-miterlimit:10;}
+	.st106{fill:#D6C6B6;}
+	.st107{fill:#040501;}
+	.st108{display:none;}
+	.st109{display:inline;opacity:0.8;}
+	.st110{display:inline;fill:#F7F7F7;}
+	.st111{display:inline;}
+	.st112{clip-path:url(#kbs-info-clip_1_);}
+	.st113{fill:none;stroke:#449AE0;stroke-width:100;stroke-miterlimit:10;}
+	.st114{fill:#222222;}
+	.st115{fill:none;stroke:#71D866;stroke-width:100;stroke-miterlimit:10;}
+	.st116{fill:none;stroke:#C68709;stroke-width:100;stroke-miterlimit:10;}
+	.st117{fill:none;stroke:#EFEA50;stroke-width:100;stroke-miterlimit:10;}
+	.st118{fill:none;stroke:#FF6CFC;stroke-width:100;stroke-miterlimit:10;}
+	.st119{fill:none;stroke:#DD4E28;stroke-width:100;stroke-miterlimit:10;}
+	.st120{fill:#A80B5A;}
+	.st121{fill:#D6126B;}
+	.st122{font-family:'FugazOne-Regular';}
+	.st123{font-size:55px;}
+	.st124{font-size:45px;}
+	.st125{font-size:43px;}
+	.st126{font-size:80px;}
+	.st127{fill:#F55424;}
+	.st128{fill:#BF2224;}
+	.st129{fill:#D5D5D5;}
+	.st130{fill:#FFFFFF;}
+	.st131{fill:#F9D355;}
+	.st132{fill:#E25A64;}
+	.st133{fill:#F2616C;}
+	.st134{fill:#DAA018;}
+	.st135{fill:#926FCB;}
+	.st136{fill:#CBB0FE;}
+	.st137{fill:#A880E8;}
+	.st138{fill:#BA5109;}
+	.st139{fill:#F3AC9D;}
+	.st140{fill:#F5F5F5;}
+	.st141{fill:#7AE38B;}
+	.st142{fill:#EAEAEA;}
+	.st143{fill:#29C8F4;}
+	.st144{fill:#7BE48C;}
+	.st145{fill:#F89F5F;}
+	.st146{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+	.st147{fill:#F4F4F4;}
+	.st148{font-family:'NotoSansKR-Black-KSCpc-EUC-H';}
+	.st149{font-size:35px;}
+	.st150{fill:url(#SVGID_1_);}
+	.st151{fill:url(#SVGID_2_);}
+	.st152{fill:url(#SVGID_3_);}
+	.st153{font-family:'CopperplateGothic-Bold';}
+	.st154{font-size:5.9685px;}
+	.st155{font-size:4.9737px;}
+	.st156{fill:#445F9D;}
+	.st157{fill:#111111;}
+	.st158{fill:#F2F2F2;}
+	.st159{font-size:30px;}
+	.st160{fill:#E8E8E8;}
+	.st161{clip-path:url(#lmk-info-clip_1_);}
+	.st162{fill:none;stroke:#EAEA92;stroke-width:100;stroke-miterlimit:10;}
+	.st163{fill:none;stroke:#C593D8;stroke-width:100;stroke-miterlimit:10;}
+	.st164{fill:#002F4C;}
+	.st165{fill:#023863;}
+	.st166{fill:#020202;}
+	.st167{fill:#F9F9F9;}
+	.st168{fill:#EAB41C;}
+	.st169{fill:#F3E726;}
+	.st170{fill:#F97B1B;}
+	.st171{fill:#9E6B3E;}
+	.st172{fill:#F89D5F;}
+	.st173{fill:#F9C720;}
+	.st174{fill:#8DE9DB;}
+	.st175{fill:#00D5B5;}
+	.st176{fill:#00D4B4;}
+	.st177{display:inline;fill:#F8DFCF;}
+	.st178{display:inline;fill:#29C6F3;}
+	.st179{display:inline;fill:#C6A47D;}
+	.st180{display:inline;fill:#7DEDFE;}
+	.st181{font-size:46px;}
+	.st182{font-size:48px;}
+	.st183{fill:url(#SVGID_4_);}
+	.st184{fill:url(#SVGID_5_);}
+	.st185{fill:url(#SVGID_6_);}
+	.st186{clip-path:url(#yco-info-clip_1_);}
+	.st187{fill:#16332F;}
+	.st188{fill:#203F3B;}
+	.st189{fill:#1E4213;}
+	.st190{fill:#F89E5F;}
+	.st191{fill:#F9D355;stroke:#000000;stroke-width:3;stroke-miterlimit:10;}
+	.st192{fill:#35632F;}
+	.st193{fill:#3C89DD;}
+	.st194{fill:#D9A018;}
+	.st195{fill-rule:evenodd;clip-rule:evenodd;fill:#F2F2F2;}
+	.st196{fill:#797979;}
+	.st197{fill:#F3FFC2;}
+	.st198{fill:#BAE12A;}
+	.st199{fill:#8EC82D;}
+	.st200{font-size:70px;}
+	.st201{fill:url(#SVGID_7_);}
+	.st202{fill:url(#SVGID_8_);}
+	.st203{fill:url(#SVGID_9_);}
+	.st204{clip-path:url(#ldm-info-clip_1_);}
+	.st205{fill:#B77D08;}
+	.st206{fill:#D6930D;}
+	.st207{fill:#00CE22;}
+	.st208{fill:#D8EF27;}
+	.st209{fill:#F45524;}
+	.st210{fill:#46D8F8;}
+	.st211{fill:#5757FD;}
+	.st212{fill:#E2530E;}
+	.st213{fill:#D6D6D6;}
+	.st214{fill:#00AE1B;}
+	.st215{fill:#D4671C;}
+	.st216{fill:#878787;}
+	.st217{fill:#484848;}
+	.st218{fill:#888888;}
+	.st219{fill:#858585;}
+	.st220{fill:#29C4F2;}
+	.st221{fill:#D33333;}
+	.st222{fill:#F9F9F9;stroke:#000000;stroke-width:7;stroke-miterlimit:10;}
+	.st223{fill:#F9F9F9;stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
+	.st224{font-size:85px;}
+	.st225{fill:url(#SVGID_10_);}
+	.st226{fill:url(#SVGID_11_);}
+	.st227{fill:url(#SVGID_12_);}
+	.st228{display:inline;fill:#111111;}
+	.st229{font-family:'SegoeUIEmoji';}
+	.st230{display:inline;fill:none;}
+}
+#modal-bg {
+	display: block !important;
+	visibility: hidden;
+	opacity: 0;
+	transition: 0.5s;
+}
+.animate {
+	// #win1bg, #kbs-pic {
+	// 	animation: ImgReveal 1s forwards 0.5s;
+	// }
+	#kbs-p {
+		animation: ImgReveal 1s forwards 0.5s;
+	}
+	#kbs-works1 * {
+		opacity: 1;
+		stroke-dasharray: 7000;
+		stroke-dashoffset: 7000;
+		animation: DrawLine 4s forwards 1s;
+	}
+	#kbs-works2 * {
+		opacity: 1;
+		stroke-dasharray: 7000;
+		stroke-dashoffset: 7000;
+		animation: DrawLine 4s forwards 2s;
+	}
+	#kbs-works3 * {
+		opacity: 1;
+		stroke-dasharray: 7000;
+		stroke-dashoffset: 7000;
+		animation: DrawLine 4s forwards 3s;
+	}
+	#lmk-p {
+		animation: ImgReveal 1s forwards 4.5s;
+	}
+	#lmk-works * {
+		animation: ImgReveal 2s forwards 5s;
+	}
+	#yco-p {
+		animation: ImgReveal 1s forwards 7s;
+	}
+	#yco-works1 * {
+		opacity: 1;
+		fill: none;
+		stroke: #c1c1c1;
+		stroke-width: 20px;
+		stroke-dasharray: 7000;
+		stroke-dashoffset: 7000;
+		animation: DrawLine 4s forwards 7.5s, LineHide 1s forwards 8.5s;
+	}
+	#yco-works2 * {
+		animation: ImgReveal 2s forwards 8.5s;
+	}
+	#ldm-p {
+		animation: ImgReveal 1s forwards 10s;
+	}
+	#ldm-works1 * {
+		animation: ImgReveal 2s forwards 10.5s;
+	}
+	#ldm-works2 * {
+		opacity: 1;
+		stroke-dasharray: 7000;
+		stroke-dashoffset: 7000;
+		animation: DrawLine 4s forwards 11.5s;
+	}
+	#ldm-works3 * {
+		animation: ImgReveal 2s forwards 12.5s;
+	}
+	g {
+		// transition: ease-in-out;
+		animation: Shake 3s 13.5s linear;
+	}
+	#flame * {
+		animation: FireOn 2s 14s forwards, FireScale 1.5s 16s linear infinite;
+	}
+}
+.hover--enable {
+	#webengers {
+		#kbs-p:hover {
+			cursor: pointer;
+			#win1bg {
+				fill: darken(#ec407a, 10%);
+			}
+		}
+		#lmk-p:hover {
+			cursor: pointer;
+			#win2bg {
+				fill: darken(#004b8d, 10%);
+			}
+		}
+		#yco-p:hover {
+			cursor: pointer;
+			#win3bg {
+				fill: darken(#2f4f4f, 10%);
+			}
+		}
+		#ldm-p:hover {
+			cursor: pointer;
+			#win4bg {
+				fill: darken(#f2b705, 10%);
+			}
+		}
+	}
+}
+.modal_bg {
+	#modal-bg {
+		visibility: visible;
+		opacity: 1;
+		#rect:hover {
+			cursor: pointer;
+		}
+		#close:hover {
+			cursor: pointer;
+		}
+		*:not(:first-child) {
+			opacity: 1;
+		}
+	}
+}
+$names : kbs, lmk, yco, ldm;
+@for $i from 1 through 4 {
+	##{nth($names, $i)}-info {
+		display: block !important;
+		visibility: hidden;
+		opacity: 0;
+	}
+}
+@for $i from 1 through 4 {
+	.#{nth($names, $i)}--show {
+		##{nth($names, $i)}-info {
+			visibility: visible;
+			opacity: 1;
+			#photo {
+				animation: ImgReveal 1s forwards;
+			}
+			#graph {
+				opacity: 1;
+				* {
+					animation: DrawLine linear forwards;
+				}
+			}
+			#panel {
+				opacity: 1;
+				#left {
+					opacity: 0;
+					animation: ImgReveal 1s forwards 1s, LeftShow 1s 1s;
+				}
+				#right {
+					opacity: 0;
+					animation: ImgReveal 1s forwards 1s, RightShow 1s 1s;
+				}
+				#up {
+					opacity: 0;
+					animation: ImgReveal 1s forwards 1s, UpShow 1s 1s;
+				}
+				#down {
+					opacity: 0;
+					animation: ImgReveal 1s forwards 1s, DownShow 1s 1s;
+				}
+			}
+			#status {
+				animation: ImgReveal 1s forwards 1.5s;
+			}
+			#link {
+				animation: ImgReveal 1s forwards 1.5s;
+			}
+			#previous, #next {
+				#name, #box {
+					opacity: 0;
+					transition: 0.2s;
+				}
+				&:hover {
+					#name, #box {
+						opacity: 1;
+					}
+				}
+				animation: ImgReveal 1s forwards 1.5s;
+			}
+		}
+	}
+}
+.kbs--show {
+	#kbs-info {
+		#graph {
+			#graph1 {
+				stroke-dasharray: 555;
+				stroke-dashoffset: 555;
+				// 참조 : 총길이는 1849
+				animation-duration: 0.3 * 1s;
+				animation-delay: 0s;
+			}
+			#graph1-text {
+				opacity: 0;
+				animation: ImgReveal 1s forwards;
+				animation-delay: 0.3 * 1s;
+			}
+			#graph2 {
+				stroke-dasharray: 370;
+				stroke-dashoffset: 370;
+				animation-duration: 0.2 * 1s;
+				animation-delay: 0.3 * 1s;
+			}
+			#graph2-text {
+				opacity: 0;
+				animation: ImgReveal 1s forwards;
+				animation-delay: 0.5 * 1s;
+			}
+			#graph3 {
+				stroke-dasharray: 370;
+				stroke-dashoffset: 370;
+				animation-duration: 0.2 * 1s;
+				animation-delay: 0.5 * 1s;
+			}
+			#graph3-text {
+				opacity: 0;
+				animation: ImgReveal 1s forwards;
+				animation-delay: 0.7 * 1s;
+			}
+			#graph4 {
+				stroke-dasharray: 185;
+				stroke-dashoffset: 185;
+				animation-duration: 0.1 * 1s;
+				animation-delay: 0.7 * 1s;
+			}
+			#graph4-text {
+				opacity: 0;
+				animation: ImgReveal 1s forwards;
+				animation-delay: 0.8 * 1s;
+			}
+			#graph5 {
+				stroke-dasharray: 344;
+				stroke-dashoffset: 344;
+				animation-duration: 0.19 * 1s;
+				animation-delay: 0.8 * 1s;
+			}
+			#graph5-text {
+				opacity: 0;
+				animation: ImgReveal 1s forwards;
+				animation-delay: 0.99 * 1s;
+			}
+			#graph6 {
+				stroke-dasharray: 26;
+				stroke-dashoffset: 26;
+				animation-duration: 0.01 * 1s;
+				animation-delay: 0.99 * 1s;
+			}
+		}
+	}
+}
+.lmk--show {
+	#lmk-info {
+		#graph {
+			#graph1 {
+				stroke-dasharray: 925;
+				stroke-dashoffset: 925;
+				// 참조 : 총길이는 1849
+				animation-duration: 0.5 * 1s;
+				animation-delay: 0s;
+			}
+			#graph1-text {
+				opacity: 0;
+				animation: ImgReveal 1s forwards;
+				animation-delay: 0.5 * 1s;
+			}
+			#graph2 {
+				stroke-dasharray: 555;
+				stroke-dashoffset: 555;
+				animation-duration: 0.3 * 1s;
+				animation-delay: 0.5 * 1s;
+			}
+			#graph2-text {
+				opacity: 0;
+				animation: ImgReveal 1s forwards;
+				animation-delay: 0.8 * 1s;
+			}
+			#graph3 {
+				stroke-dasharray: 185;
+				stroke-dashoffset: 185;
+				animation-duration: 0.1 * 1s;
+				animation-delay: 0.8 * 1s;
+			}
+			#graph3-text {
+				opacity: 0;
+				animation: ImgReveal 1s forwards;
+				animation-delay: 0.9 * 1s;
+			}
+			#graph4 {
+				stroke-dasharray: 93;
+				stroke-dashoffset: 93;
+				animation-duration: 0.05 * 1s;
+				animation-delay: 0.9 * 1s;
+			}
+			#graph4-text {
+				opacity: 0;
+				animation: ImgReveal 1s forwards;
+				animation-delay: 0.95 * 1s;
+			}
+			#graph5 {
+				stroke-dasharray: 93;
+				stroke-dashoffset: 93;
+				animation-duration: 0.05 * 1s;
+				animation-delay: 0.95 * 1s;
+			}
+			#graph5-text {
+				opacity: 0;
+				animation: ImgReveal 1s forwards;
+				animation-delay: 1 * 1s;
+			}
+		}
+	}
+}
+.yco--show {
+	#yco-info {
+		#graph {
+			#graph1 {
+				stroke-dasharray: 617;
+				stroke-dashoffset: 617;
+				// 참조 : 총길이는 1849
+				animation-duration: 1 / 3 * 1s;
+				animation-delay: 0s;
+			}
+			#graph1-text {
+				opacity: 0;
+				animation: ImgReveal 1s forwards;
+				animation-delay: 1 / 3 * 1s;
+			}
+			#graph2 {
+				stroke-dasharray: 617;
+				stroke-dashoffset: 617;
+				animation-duration: 1 / 3 * 1s;
+				animation-delay: 1 / 3 * 1s;
+			}
+			#graph2-text {
+				opacity: 0;
+				animation: ImgReveal 1s forwards;
+				animation-delay: 2 / 3 * 1s;
+			}
+			#graph3 {
+				stroke-dasharray: 617;
+				stroke-dashoffset: 617;
+				animation-duration: 1 / 3 * 1s;
+				animation-delay: 2 / 3 * 1s;
+			}
+			#graph3-text {
+				opacity: 0;
+				animation: ImgReveal 1s forwards;
+				animation-delay: 1 * 1s;
+			}
+		}
+	}
+}
+.ldm--show {
+	#ldm-info {
+		#graph {
+			#graph1 {
+				stroke-dasharray: 739;
+				stroke-dashoffset: 739;
+				// 참조 : 총길이는 1849
+				animation-duration: 0.4 * 1s;
+			}
+			#graph1-text {
+				opacity: 0;
+				animation: ImgReveal 1s forwards;
+				animation-delay: 0.4 * 1s;
+			}
+			#graph2 {
+				stroke-dasharray: 555;
+				stroke-dashoffset: 555;
+				animation-duration: 0.3 * 1s;
+				animation-delay: 0.4 * 1s;
+			}
+			#graph2-text {
+				opacity: 0;
+				animation: ImgReveal 1s forwards;
+				animation-delay: 0.7 * 1s;
+			}
+			#graph3 {
+				stroke-dasharray: 370;
+				stroke-dashoffset: 370;
+				animation-duration: 0.2 * 1s;
+				animation-delay: 0.7 * 1s;
+			}
+			#graph3-text {
+				opacity: 0;
+				animation: ImgReveal 1s forwards;
+				animation-delay: 0.9 * 1s;
+			}
+			#graph4 {
+				stroke-dasharray: 185;
+				stroke-dashoffset: 185;
+				animation-duration: 0.1 * 1s;
+				animation-delay: 0.9 * 1s;
+			}
+			#graph4-text, #graph4-text1 {
+				opacity: 0;
+				animation: ImgReveal 1s forwards;
+				animation-delay: 1 * 1s;
+			}
+		}
+	}
+}
+@keyframes DrawLine {
+	to {stroke-dashoffset: 0;}
+}
+@keyframes ImgReveal {
+	to {opacity: 1;}
+}
+@keyframes LineHide {
+	to {stroke-width: 0;}
+}
+@keyframes Shake {
+	@for $i from 0 through 8 {
+		#{($i * 10%) + 2%} {
+			transform: translate(-2px, -3px);
+		}
+		#{($i * 10%) + 4%} {
+			transform: translate(0px, 3px);
+		}
+		#{($i * 10%) + 6%} {
+			transform: translate(2px, -1px);
+		}
+		#{($i * 10%) + 8%} {
+			transform: translate(-1px, 2px);
+		}
+		#{($i * 10%) + 10%} {
+			transform: translate(0px, -3px);
+		}
+	}
+}
+@keyframes FireOn {
+	from {
+		opacity: 1;
+		transform: translateX(500px);
+	}
+	to {
+		opacity: 1;
+	}
+}
+@keyframes FireScale {
+	50% {
+		transform: scale(0.9) translate(110px,110px);
+	}
+}
+@keyframes LeftShow {
+	from {
+		transform: translateX(150px);
+	}
+}
+@keyframes RightShow {
+	from {
+		transform: translateX(-150px);
+	}
+}
+@keyframes UpShow {
+	from {
+		transform: translateY(100px);
+	}
+}
+@keyframes DownShow {
+	from {
+		transform: translateY(-100px);
+	}
+}

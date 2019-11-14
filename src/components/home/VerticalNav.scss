@@ -1,0 +1,15 @@
+.v-nav {
+    position: fixed;
+    top: 50%;
+    right: 15px;
+}
+.nav-circle {
+    width: 8px;
+    height: 8px;
+    background: white;
+    border-radius: 100px;
+    margin-bottom: 8px;
+    &:last-of-type {
+        margin-bottom: 0px;
+    }
+}
