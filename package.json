@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "@atlaskit/css-reset": "^5.0.2",
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "immutability-helper": "^3.0.1",
     "immutable": "^4.0.0-rc.12",
     "node-sass": "^4.12.0",
